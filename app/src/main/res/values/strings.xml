@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">elderAppointment</string>
+    <string name="greeting">Hello, Vaishnavi</string>
+    <string name="appointment_icon">Appointment Icon</string>
+    <string name="appointments">Appointments</string>
+    <string name="medicine_icon">Medicine Icon</string>
+    <string name="medicines">Medicines</string>
+    <string name="health_icon">Health Icon</string>
+    <string name="health_tracker">Health Tracker</string>
+    <string name="water_icon">Water Icon</string>
+    <string name="water_tracker">Water Tracker</string>
+    <string name="profile_icon">Profile Icon</string>
+    <string name="profile">Profile</string>
+    <string name="good_afternoon">Good Afternoon</string>
+    <string name="user_name">vaishnavi</string>
+    <string name="sos">SOS</string>
+    <string name="todays_reminders">Todays Reminders</string>
+    <string name="nothing_scheduled">Nothing scheduled for today. Enjoy your day!</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="appointments_label">Appointments</string>
+    <string name="appointments_upcoming">0 upcoming</string>
+    <string name="medicines_label">Medicines</string>
+    <string name="medicines_pending">0 pending</string>
+    <string name="emergency_label">Emergency</string>
+    <string name="call_helpers">Call helpers</string>
+    <string name="health_tracker_label">Health Tracker</string>
+    <string name="steps_sleep_water">Steps • Sleep • Water</string>
+    <string name="reminder_info">Info icon for reminders</string>
+    <string name="appointments_icon">Calendar icon for appointments</string>
+    <string name="medicines_icon">Info icon for medicines</string>
+    <string name="emergency_icon">Call icon for emergency</string>
+    <string name="health_tracker_icon">My places icon for health tracker</string>
+    <string name="register">Register</string>
+    <string name="registering">Registering...</string>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F8FB">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Add Medicine"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Medicine Name"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/medName"
+            android:hint="e.g. Paracetamol"
+            android:textColor="#000000"
+            android:textColorHint="#757575"
+            android:padding="16dp"
+            android:background="@drawable/edit_bg"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Dosage (mg)"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/medMg"
+            android:hint="e.g. 500"
+            android:textColor="#000000"
+            android:textColorHint="#757575"
+            android:inputType="number"
+            android:padding="16dp"
+            android:background="@drawable/edit_bg"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Frequency"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox android:id="@+id/chkMorning" android:text="Morning" android:textColor="#000000" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"/>
+            <CheckBox android:id="@+id/chkAfternoon" android:text="Afternoon" android:textColor="#000000" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"/>
+            <CheckBox android:id="@+id/chkNight" android:text="Night" android:textColor="#000000" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <TextView
+            android:text="Timing"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioGroup
+            android:id="@+id/timingGroup"
+            android:orientation="horizontal"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/radioBefore" android:text="Before Meal" android:textColor="#000000" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"/>
+            <RadioButton android:id="@+id/radioAfter" android:text="After Meal" android:textColor="#000000" android:checked="true" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/saveMedBtn"
+            android:text="Save Medicine"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:backgroundTint="#4CAF50"
+            android:padding="16dp"
+            app:cornerRadius="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>

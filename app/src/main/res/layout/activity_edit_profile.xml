@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F2F5">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Edit Personal Details"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#1A237E"
+            android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Age -->
+        <TextView android:text="Age" android:textStyle="bold" android:textColor="#000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+        <EditText
+            android:id="@+id/editAge"
+            android:hint="Enter Age"
+            android:inputType="number"
+            android:padding="16dp"
+            android:background="@drawable/edit_bg"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Blood Group -->
+        <TextView android:text="Blood Group" android:textStyle="bold" android:textColor="#000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+        <EditText
+            android:id="@+id/editBlood"
+            android:hint="e.g. O+"
+            android:padding="16dp"
+            android:background="@drawable/edit_bg"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Weight -->
+        <TextView android:text="Weight (kg)" android:textStyle="bold" android:textColor="#000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+        <EditText
+            android:id="@+id/editWeight"
+            android:hint="e.g. 70"
+            android:inputType="number"
+            android:padding="16dp"
+            android:background="@drawable/edit_bg"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Height -->
+        <TextView android:text="Height (cm)" android:textStyle="bold" android:textColor="#000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+        <EditText
+            android:id="@+id/editHeight"
+            android:hint="e.g. 165"
+            android:inputType="number"
+            android:padding="16dp"
+            android:background="@drawable/edit_bg"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Gender -->
+        <TextView android:text="Gender" android:textStyle="bold" android:textColor="#000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+        <EditText
+            android:id="@+id/editGender"
+            android:hint="Male / Female"
+            android:padding="16dp"
+            android:background="@drawable/edit_bg"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Medical History -->
+        <TextView android:text="Medical History" android:textStyle="bold" android:textColor="#000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+        <EditText
+            android:id="@+id/editHistory"
+            android:hint="e.g. Diabetes, Hypertension"
+            android:padding="16dp"
+            android:background="@drawable/edit_bg"
+            android:layout_marginBottom="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="3"
+            android:gravity="top"/>
+
+        <Button
+            android:id="@+id/saveProfileBtn"
+            android:text="Save Profile"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:backgroundTint="#1A237E"
+            android:padding="16dp"
+            app:cornerRadius="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>
